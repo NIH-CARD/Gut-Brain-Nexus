@@ -1,54 +1,54 @@
-zSCORE
-p130708
-p131600
-p131640
-p130714
-p130770
-p130718
-p130706
-itgav
-vat1
-egfr
-megf9
-adgrg2
-tnxb
-itgam
-il13ra1
-itgb1
-clec10a
-itga11
-setmar
-itgb2
-hpgds
-bag3
-eps8l2
-cdon
-ptprn2
-scg2
-klk8
-dctpp1
-crhbp
-ifnlr1
-tppp3
-angptl3
-hnmt
-comp
-furin
-tafa5
-cxcl17
-enah
-sftpd
-cd276
-nefl
-Townsend_deprivation_index
-sex
-Age_at_recruitment
-p22009_a1
-p22009_a2
-p22009_a3
-p22009_a4
-p22009_a5
-C_12_40220632
-G_12_40340400
-G_1_155162560
-T_1_155235843
+Genetics/zSCORE
+Clinical/non-insulin-dependent diabetes mellitus
+Clinical/dyspepsia
+Clinical/other functional intestinal disorders
+Clinical/unspecified diabetes mellitus
+Clinical/deficiency of other b group vitamins
+Clinical/other disorders of pancreatic internal secretion
+Clinical/insulin-dependent diabetes mellitus
+Olink/Integrin alpha-V
+Olink/Synaptic vesicle membrane protein VAT-1 homolog
+Olink/Epidermal growth factor receptor
+Olink/Multiple epidermal growth factor-like domains protein 9
+Olink/Adhesion G-protein coupled receptor G2
+Olink/Tenascin-X
+Olink/Integrin alpha-M
+Olink/Interleukin-13 receptor subunit alpha-1
+Olink/Integrin beta-1
+Olink/C-type lectin domain family 10 member A
+Olink/Integrin alpha-11
+Olink/Histone-lysine N-methyltransferase SETMAR
+Olink/Integrin beta-2
+Olink/Hematopoietic prostaglandin D synthase
+Olink/BAG family molecular chaperone regulator 3
+Olink/Epidermal growth factor receptor kinase substrate 8-like protein 2
+Olink/Cell adhesion molecule-related/down-regulated by oncogenes
+Olink/Receptor-type tyrosine-protein phosphatase N2
+Olink/Secretogranin-2
+Olink/Kallikrein-8
+Olink/dCTP pyrophosphatase 1
+Olink/Corticotropin-releasing factor-binding protein
+Olink/Interferon lambda receptor 1
+Olink/Tubulin polymerization-promoting protein family member 3
+Olink/Angiopoietin-related protein 3
+Olink/Histamine N-methyltransferase
+Olink/Cartilage oligomeric matrix protein
+Olink/Furin
+Olink/Chemokine-like protein TAFA-5
+Olink/C-X-C motif chemokine 17
+Olink/Protein enabled homolog
+Olink/Pulmonary surfactant-associated protein D
+Olink/CD276 antigen
+Olink/Neurofilament light polypeptide
+Demographics/Townsend_deprivation_index
+Demographics/sex
+Demographics/Age_at_recruitment
+Genetics/Principal Component 1
+Genetics/Principal Component 2
+Genetics/Principal Component 3
+Genetics/Principal Component 4
+Genetics/Principal Component 5
+Genetics/C_12_40220632
+Genetics/G_12_40340400
+Genetics/G_1_155162560
+Genetics/T_1_155235843

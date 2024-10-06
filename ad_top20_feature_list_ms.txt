@@ -1,37 +1,37 @@
-zSCORE
-p130814
-p131598
-p131582
-p130820
-p131630
-p131560
-p130708
-p130828
-p130008
-p130714
-p131640
-p130770
-p130826
-p130774
-p130718
-p130824
-p130706
-nptxr
-cst5
-psg1
-ren
-calb1
-gdf15
-il1rl1
-ltbp2
-nefl
-gfap
-Townsend_deprivation_index
-sex
-p22009_a1
-p22009_a2
-p22009_a3
-p22009_a4
-p22009_a5
-e4_copies
-Age_at_recruitment
+Genetics/zSCORE
+Clinical/Disorders Of Lipoprotein Metabolism And Other Lipidaemias
+Clinical/Gastritis And Duodenitis
+Clinical/Oesophagitis
+Clinical/Disorders Of Mineral Metabolism
+Clinical/Other Non-Infective Gastro-Enteritis And Colitis
+Clinical/Diseases Of Pulp And Periapical Tissues
+Clinical/Non-Insulin-Dependent Diabetes Mellitus
+Clinical/Other Disorders Of Fluid, Electrolyte And Acid-Base Balance
+Clinical/Other Bacterial Intestinal Infections
+Clinical/Unspecified Diabetes Mellitus
+Clinical/Other Functional Intestinal Disorders
+Clinical/Deficiency Of Other B Group Vitamins
+Clinical/Volume Depletion
+Clinical/Vitamin D Deficiency
+Clinical/Other Disorders Of Pancreatic Internal Secretion
+Clinical/Amyloidosis
+Clinical/Insulin-Dependent Diabetes Mellitus
+Olink/Neuronal pentraxin receptor
+Olink/Cystatin-D
+Olink/Pregnancy-specific beta-1-glycoprotein 1
+Olink/Renin
+Olink/Calbindin
+Olink/Growth/differentiation factor 15
+Olink/Interleukin-1 receptor-like 1
+Olink/Latent-transforming growth factor beta-binding protein 2
+Olink/Neurofilament light polypeptide
+Olink/Glial fibrillary acidic protein
+Demographics/Townsend_deprivation_index
+Demographics/sex
+Genetics/Principal Component 1
+Genetics/Principal Component 2
+Genetics/Principal Component 3
+Genetics/Principal Component 4
+Genetics/Principal Component 5
+Genetics/e4_copies
+Demographics/Age_at_recruitment

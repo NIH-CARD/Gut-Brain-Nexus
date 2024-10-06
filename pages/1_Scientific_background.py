@@ -79,7 +79,7 @@ def app():
         with col1:
             st.write('---')
             # temp = shap.Explanation(values=np.array(shap_values), base_values=np.array([exval]*len(X)), data=np.array(X.values), feature_names=X.columns)
-            @st.cache_data
+            # @st.cache_data
             def get_fig_bee():
                 fig, ax = plt.subplots(figsize=(10,15))
                 shap.plots.beeswarm(ad_shap_obj, show=False, max_display=20, plot_size=(10, 13))
@@ -89,7 +89,7 @@ def app():
             st.write('---')
         with col2:
             st.write('---')
-            @st.cache_data
+            # @st.cache_data
             def get_fig_bar():
                 fig, ax = plt.subplots(figsize=(10,15))
                 shap.plots.bar(ad_shap_obj, show=False, max_display=20)

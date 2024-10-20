@@ -32,20 +32,20 @@ def app():
     if select_disease == 'ADRD':
         @st.cache_data
         def get_cache_data_ad():
-            f = gzip.GzipFile("ad_shap_object_values_ms.npy.gz", "r")
+            f = gzip.GzipFile("ad_shap_object_values.npy.gz", "r")
             values = np.load(f)
             f.close()
-            f = gzip.GzipFile("ad_shap_object_base_values_ms.npy.gz", "r")
+            f = gzip.GzipFile("ad_shap_object_base_values.npy.gz", "r")
             base_values = np.load(f)
             f.close()
-            f = gzip.GzipFile("ad_shap_object_data_ms.npy.gz", "r")
+            f = gzip.GzipFile("ad_shap_object_data.npy.gz", "r")
             data = np.load(f)
             f.close()
-            f = gzip.GzipFile("ad_shap_object_feature_names_ms.npy.gz", "r")
+            f = gzip.GzipFile("ad_shap_object_feature_names.npy.gz", "r")
             feature_names = np.load(f)
             f.close()
             ad_shap_obj = shap.Explanation(values=np.array(values), base_values=base_values, data=data, feature_names=feature_names)
-            with open("ad_top20_feature_list_ms.txt", 'r') as f:
+            with open("ad_top20_feature_list.txt", 'r') as f:
                 top20_features = f.read().split('\n')
             return ad_shap_obj, top20_features
 
@@ -53,20 +53,20 @@ def app():
     else:
         @st.cache_data
         def get_cache_data_pd():
-            f = gzip.GzipFile("pd_shap_object_values_ms.npy.gz", "r")
+            f = gzip.GzipFile("pd_shap_object_values.npy.gz", "r")
             values = np.load(f)
             f.close()
-            f = gzip.GzipFile("pd_shap_object_base_values_ms.npy.gz", "r")
+            f = gzip.GzipFile("pd_shap_object_base_values.npy.gz", "r")
             base_values = np.load(f)
             f.close()
-            f = gzip.GzipFile("pd_shap_object_data_ms.npy.gz", "r")
+            f = gzip.GzipFile("pd_shap_object_data.npy.gz", "r")
             data = np.load(f)
             f.close()
-            f = gzip.GzipFile("pd_shap_object_feature_names_ms.npy.gz", "r")
+            f = gzip.GzipFile("pd_shap_object_feature_names.npy.gz", "r")
             feature_names = np.load(f)
             f.close()
             ad_shap_obj = shap.Explanation(values=np.array(values), base_values=base_values, data=data, feature_names=feature_names)
-            with open("pd_top20_feature_list_ms.txt", 'r') as f:
+            with open("pd_top20_feature_list.txt", 'r') as f:
                 top20_features = f.read().split('\n')
             return ad_shap_obj, top20_features
 

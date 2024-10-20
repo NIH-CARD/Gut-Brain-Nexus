@@ -56,11 +56,11 @@ def app():
     features_exists = True
     select_disease = st.selectbox("Select the disease", options=['ADRD', 'PD'])
     if select_disease == 'ADRD':
-        lightgbm_model = joblib.load('ad_reduced_lgb_ms.pkl')
+        lightgbm_model = joblib.load('ad_reduced_lgb.pkl')
     else:
-        lightgbm_model = joblib.load('pd_reduced_lgb_ms.pkl')
+        lightgbm_model = joblib.load('pd_reduced_lgb.pkl')
 
-    X = pd.read_csv(f"sample_dataset_{select_disease}_MS.csv")
+    X = pd.read_csv(f"sample_dataset_{select_disease}.csv")
     X.index = list(range(X.shape[0]))
     cols_dics = st.columns(1)
     PLOTTING_DIV00 = cols_dics[0].container()

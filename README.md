@@ -1,6 +1,7 @@
 # Gut-Brain Nexus: Mapping Multi-Modal Links to Neurodegeneration at Biobank Scale
 
 `CARD ❤️ Open Science 😍`
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status - Pre-Print](https://img.shields.io/badge/Status-Pre--Print-0F4C92)](https://pubmed.ncbi.nlm.nih.gov/39371139/)
 
 **Last Updated:** June 2025

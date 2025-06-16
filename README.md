@@ -61,8 +61,7 @@ this_repository
 │   └── gut_brain_nexus.ipynb
 ├── LICENSE
 ├── README.md
-└── streamlit
-    └── ... [files related to hosting streamlit app]
+└── [files related to hosting streamlit app]
 ```
 
 ---

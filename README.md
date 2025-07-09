@@ -51,6 +51,7 @@ If you use this repository or find it helpful for your research, please cite the
 ## **Repository Orientation**
 
 * The `finegray.ipynb` notebook contains the **survival analysis / competing risks modeling** pipeline.
+* The `cox_regression.ipynb` notebook contains the **Cox regression modeling**
 * The `gut_brain_nexus.ipynb` notebook contains the main **multi-modal modeling** and **proteomic biomarker analyses**.
 
 The `analyses/` directory includes all the analyses discussed in the manuscript or links to the respective GitHubs where analyses were followed.
@@ -58,6 +59,7 @@ The `analyses/` directory includes all the analyses discussed in the manuscript 
 this_repository
 ├── analyses
 │   ├── finegray.ipynb
+│   ├── cox_regression.ipynb
 │   └── gut_brain_nexus.ipynb
 ├── LICENSE
 ├── README.md
@@ -91,8 +93,9 @@ this_repository
 
 | Notebook                | Description                                                                                                      |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `finegray.ipynb`        | Fine & Gray survival analysis pipeline on AD and PD cohorts                                                              |
+| `finegray.ipynb`        | Fine & Gray survival analysis pipeline on AD and PD cohorts                                                      |
 | `gut_brain_nexus.ipynb` | Main multi-modal modeling pipeline, proteomics analysis, PRS modeling, interaction analyses, classifier training |
+| `cox_regression.ipynb`  | Cox regressions                                                    |
 
 ---
 
